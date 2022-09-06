@@ -15,13 +15,11 @@ const rl = readline.createInterface({
 rl.question('what is your name ? ', (name) => {
     rl.question('no phone ? ', (noPhone) => {
         rl.question('email ? ', (email) => {
-            console.log(`
-Thank You ${name},
-no phone : ${noPhone},
-email : ${email}`
-            );
+            console.log(`Thank You ${name},no phone : ${noPhone},email : ${email}`);
             rl.close();
         });
     });
 });
+// membuat cli kontak
+// tentang yasn
 
