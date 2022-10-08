@@ -1,6 +1,6 @@
 const readline = require('readline');
 
-
+// membuat object interface
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -19,9 +19,3 @@ rl.question('what is your name ? ', (name) => {
         });
     });
 });
-
-
-
-// membuat cli kontak
-// tentang yasn
-
